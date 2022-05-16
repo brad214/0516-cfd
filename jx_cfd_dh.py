@@ -9,7 +9,7 @@ task djxyy5505_0516-cfd/jx_cfd_dh.py
 
 或者
 1.拉库 拉库命令 ql repo https://github.com/mixingh/Script.git "jx_" "" "ql_"
-2.复制此txt全部内容。替换拉库得到的jx_cfd_dh.py文件里面的内容
+2.复制此jx_cfd_dh.py全部内容。替换拉库得到的jx_cfd_dh.py文件里面的内容
 3.ck格式:pt_key=xxx;pt_pin=xxx;cid=1;  中间不得有空格
 4.停用所有财富岛相关的脚本。只开兑换脚本
 
