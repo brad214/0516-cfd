@@ -3,6 +3,9 @@
 然后手动添加定时任务
 task djxyy5505_0516-cfd/jx_cfd_dh.py
 50 59 * * * *
+环境变量那里的CFD_START_time可以调节时间
+3.ck格式:pt_key=xxx;pt_pin=xxx;cid=1;  中间不得有空格
+4.停用所有财富岛相关的脚本。只开兑换脚本
 
 或者
 1.拉库 拉库命令 ql repo https://github.com/mixingh/Script.git "jx_" "" "ql_"
