@@ -1,4 +1,11 @@
 """
+1.拉库 拉库命令 ql repo https://github.com/mixingh/Script.git "jx_" "" "ql_"
+2.复制此txt全部内容。替换拉库得到的jx_cfd_dh.py文件里面的内容
+3.ck格式:pt_key=xxx;pt_pin=xxx;cid=1;  中间不得有空格
+4.停用所有财富岛相关的脚本。只开兑换脚本
+
+直接拉取我更改好的 ql repo https://github.com/djxyy5505/0516-cfd.git "js" "" "py"
+
 cron: 50 59 * * * *
 new Env('财富岛兑换红包');
 """
@@ -29,7 +36,7 @@ class JxCFD(object):
         }
 
     def get_cfd_url(self):
-
+        #获取到的url替换↓↓↓↓↓
         new_url = 'https://m.jingxi.com/jxbfd/user/ExchangePrize?strZone=jxbfd&bizCode=jxbfd&source=jxbfd&dwEnv=7&_cfd_t=1652155099587&dwType=3&dwLvl=11&ddwPaperMoney=100000&strPoolName=jxcfd2_exchange_hb_202204&sceneval=2&g_login_type=1'
         return new_url
 
