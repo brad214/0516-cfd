@@ -6,4 +6,4 @@ ck格式pt_key=xxx;pt_pin=xxx;cid=1;  中间不能有空格
 环境变量名CFD_COOKIE
 
 # 拉库命令
-ql repo https://github.com/djxyy5505/0516-cfd.git "jx_" "" "ql_"
+ql repo https://github.com/djxyy5505/0516-cfd.git "js" "" "py"
